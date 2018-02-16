@@ -15,6 +15,11 @@
 		7DD2240520299469005E3006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD2240320299469005E3006 /* LaunchScreen.storyboard */; };
 		7DD2241020299469005E3006 /* Tuto2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2240F20299469005E3006 /* Tuto2Tests.swift */; };
 		7DD2241B20299469005E3006 /* Tuto2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2241A20299469005E3006 /* Tuto2UITests.swift */; };
+		7DD22429202994C2005E3006 /* Personne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD22428202994C2005E3006 /* Personne.swift */; };
+		7DD2242A202994C2005E3006 /* Personne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD22428202994C2005E3006 /* Personne.swift */; };
+		7DD2242C2029984B005E3006 /* PersonneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2242B2029984B005E3006 /* PersonneTests.swift */; };
+		7DD2242E20299AE8005E3006 /* ListePersonne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2242D20299AE8005E3006 /* ListePersonne.swift */; };
+		7DD2242F20299AE8005E3006 /* ListePersonne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2242D20299AE8005E3006 /* ListePersonne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,9 @@
 		7DD2241620299469005E3006 /* Tuto2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tuto2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD2241A20299469005E3006 /* Tuto2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuto2UITests.swift; sourceTree = "<group>"; };
 		7DD2241C20299469005E3006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD22428202994C2005E3006 /* Personne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Personne.swift; sourceTree = "<group>"; };
+		7DD2242B2029984B005E3006 /* PersonneTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonneTests.swift; sourceTree = "<group>"; };
+		7DD2242D20299AE8005E3006 /* ListePersonne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListePersonne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,8 @@
 				7DD2240320299469005E3006 /* LaunchScreen.storyboard */,
 				7DD2240620299469005E3006 /* Info.plist */,
 				7DD223FE20299469005E3006 /* Tuto2.xcdatamodeld */,
+				7DD22428202994C2005E3006 /* Personne.swift */,
+				7DD2242D20299AE8005E3006 /* ListePersonne.swift */,
 			);
 			path = Tuto2;
 			sourceTree = "<group>";
@@ -115,6 +125,7 @@
 			children = (
 				7DD2240F20299469005E3006 /* Tuto2Tests.swift */,
 				7DD2241120299469005E3006 /* Info.plist */,
+				7DD2242B2029984B005E3006 /* PersonneTests.swift */,
 			);
 			path = Tuto2Tests;
 			sourceTree = "<group>";
@@ -264,7 +275,9 @@
 			files = (
 				7DD2240020299469005E3006 /* Tuto2.xcdatamodeld in Sources */,
 				7DD223FA20299469005E3006 /* ViewController.swift in Sources */,
+				7DD2242E20299AE8005E3006 /* ListePersonne.swift in Sources */,
 				7DD223F820299469005E3006 /* AppDelegate.swift in Sources */,
+				7DD22429202994C2005E3006 /* Personne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DD2241020299469005E3006 /* Tuto2Tests.swift in Sources */,
+				7DD2242F20299AE8005E3006 /* ListePersonne.swift in Sources */,
+				7DD2242A202994C2005E3006 /* Personne.swift in Sources */,
+				7DD2242C2029984B005E3006 /* PersonneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +527,7 @@
 				7DD2242120299469005E3006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DD2242220299469005E3006 /* Build configuration list for PBXNativeTarget "Tuto2Tests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +536,7 @@
 				7DD2242420299469005E3006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DD2242520299469005E3006 /* Build configuration list for PBXNativeTarget "Tuto2UITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +545,7 @@
 				7DD2242720299469005E3006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
